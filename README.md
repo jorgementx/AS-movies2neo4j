@@ -1,5 +1,10 @@
 # AS-movies2neo4j
 Proyecto desarrollado para la asignatura de Administración de Sistemas en relación a las técnologias de Docker, Kubernetes y Vagrant, donde hemos tenido que desarrollar una aplicación que complementara la imagen de docker que se nos hubiera asignado. En mi caso, esta ha sido la base de datos basada en grafos Neo4j.
+https://hub.docker.com/r/jorgementx/movies2neo4j
+
+- Para descargar las imagenes de docker hub:
+> docker pull jorgementx/movies2neo4j:v2
+> docker pull neo4j
 
 - Para ejecutar la aplicación (en el mismo directorio donde se encuentre el docker-compose.yaml):
 > docker-compose up
