@@ -4,6 +4,7 @@ https://hub.docker.com/r/jorgementx/movies2neo4j
 
 - Para descargar las imagenes de docker hub:
 > docker pull jorgementx/movies2neo4j:v2
+
 > docker pull neo4j
 
 - Para ejecutar la aplicación (en el mismo directorio donde se encuentre el docker-compose.yaml):
