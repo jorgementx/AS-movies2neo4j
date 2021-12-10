@@ -1,0 +1,12 @@
+piVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: neo4j-claim
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 100Mi
+  volumeName: neo4j-volume

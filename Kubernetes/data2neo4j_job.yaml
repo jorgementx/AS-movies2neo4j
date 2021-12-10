@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: Job2neo4j-job
+  labels:
+    app: graphdata
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: graphdata
+          image: jorgementx/kuber_neo4j
